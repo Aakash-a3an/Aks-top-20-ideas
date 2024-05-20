@@ -1,0 +1,17 @@
+
+{
+    "dialect": "postgresql",
+    "schema": "./utils/schema.js",
+    "breakpoints": false,
+    "out": "./migrations-folder",
+    "driver": "pg",
+    "host": "ep-small-paper-a1i8xmzr-pooler.ap-southeast-1.aws.neon.tech",
+    "port": 5432,
+    "database": "top20Idea",
+    "user": "neondb_owner",
+    "password": "ivOnyJQjY2V8",
+    "ssl": true,
+    "dbCredentials": {
+        "url": "postgresql://neondb_owner:ivOnyJQjY2V8@ep-small-paper-a1i8xmzr-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+      }
+  }
