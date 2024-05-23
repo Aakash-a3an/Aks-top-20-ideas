@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
-
+import React, { useState } from "react";
 const Tabs = () => {
-  const [activeTab, setActiveTab] = useState();
+  const [activeTab, setActiveTab] = useState(0);
+
+  
 
 
   return (
     
-      <div role="tablist" className="tabs tabs-boxed">
+      <div role="tablist" className="tabs z-30 sticky top-[1vh] tabs-boxed">
         <a
           href="/#hot"
           onClick={() => setActiveTab(0)}

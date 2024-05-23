@@ -12,7 +12,7 @@ const Hero = () => {
       </h2>
       <h2 className="text-center my-3">
         <strong className="text-secondary">Like your favorite ideas.</strong>
-        Write your best ideas, No SignIn needed!
+        Write your best ideas, No Account needed!
       </h2>
 
       <div className="">
