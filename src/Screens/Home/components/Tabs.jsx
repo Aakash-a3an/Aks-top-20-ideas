@@ -10,7 +10,7 @@ const Tabs = () => {
       <div role="tablist" className="tabs z-30 sticky top-[1vh] tabs-boxed">
         <a
           href="/#hot"
-          onClick={() => setActiveTab(0)}
+          onClick={() => setActiveTab(1)}
           role="tab"
           className={`tab text-lg font-medium ${
             activeTab === 0 && 'tab-active'
