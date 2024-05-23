@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 const Tabs = () => {
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(1);
 
   
 
@@ -10,7 +10,7 @@ const Tabs = () => {
       <div role="tablist" className="tabs z-30 sticky top-[1vh] tabs-boxed">
         <a
           href="/#hot"
-          onClick={() => setActiveTab(1)}
+          onClick={() => setActiveTab(0)}
           role="tab"
           className={`tab text-lg font-medium ${
             activeTab === 0 && 'tab-active'
